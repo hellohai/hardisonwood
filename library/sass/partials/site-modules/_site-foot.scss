@@ -1,0 +1,39 @@
+.footer-colophon {
+	position: fixed;
+	bottom: -8px;
+	right: 0;
+	width: 160px;
+	z-index: 9;
+	nav {
+		right: -15px;
+		bottom: 50px;
+		width: 100px;
+		position: absolute;
+	}
+	svg {
+		float: left;
+		margin-left: 5px;
+		list-style: none;
+		path {
+			fill: white;
+		}
+	}
+}
+
+@include bp(eight-column) {
+	
+}
+
+@include bp(twelve-column) {
+	
+}
+
+@include bp(sixteen-column) {
+
+}
+
+
+
+
+
+
